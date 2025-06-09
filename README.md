@@ -13,3 +13,6 @@ Basic implementation of all 2024 - 2025 JavaFX projects for Programming 1 - Proj
 - [ ] Pipe Dream
 - [ ] Rolit
 - [ ] Zolo
+
+Video:
+[![Watch the video](https://img.youtube.com/vi/rIgOfmcd1iA/maxresdefault.jpg)](https://youtu.be/rIgOfmcd1iA)
