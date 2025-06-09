@@ -1,0 +1,130 @@
+* {
+    -fx-background-color: #0e0e0e;
+}
+
+/* CSS code snippet from http://fxexperience.com/2011/12/styling-fx-buttons-with-css/ */
+.start_button {
+    -fx-text-fill: white;
+    -fx-padding: 8 100 15 100;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #127334 0%, #055921 100%),
+            #127334,
+            #1e8f45,
+            radial-gradient(center 50% 50%, radius 100%, #1db954, #199845);
+    -fx-effect: dropshadow(gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.start_button:hover {
+    -fx-text-fill: #5b5b5b;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #127334 0%, #055921 100%),
+            #127334,
+            #1e8f45,
+            radial-gradient(center 50% 50%, radius 100%, #168c3e, #199845);
+}
+.start_button:pressed {
+    -fx-padding: 8 100 13 100;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+@font-face {
+    font-family: Swiss911;
+    src: url('fonts/Swiss_911_Compressed_Regular.otf');
+}
+
+@font-face {
+    font-family: OPTISpire1;
+    src: url('fonts/OPTISpire.otf');
+}
+
+.label {
+    -fx-text-fill: #b3b3b3;
+    -fx-font-weight: bold;
+    -fx-font-family: monospace;
+    -fx-font-size: 16;
+    -fx-background-color: transparent;
+}
+
+.small_text {
+    -fx-text-fill: WHITE;
+    -fx-font-size: 32px;
+    -fx-font-family: Swiss911;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-max-width: infinity;
+    -fx-wrap-text: true;
+}
+
+.large_text {
+    -fx-text-fill: WHITE;
+    -fx-font-size: 32px;
+    -fx-font-family: OPTISpire1;
+    -fx-background-color: transparent;
+    -fx-scale-y: 3;
+    -fx-font-weight: lighter;
+    -fx-scale-x: 1.095;
+    -fx-alignment: center;
+    -fx-max-width: infinity;
+    -fx-wrap-text: true;
+}
+
+.menu {
+    -fx-border-color: #121212;
+    -fx-border-width: 3px;
+    -fx-background-color: 	#212121;
+}
+
+.levels_scroll {
+    -fx-border-color: #168c3e;
+}
+
+.high_scores_menu .label{
+    -fx-font-size: 20;
+}
+
+.next_level_menu {
+    -fx-background-color: 	#212121;
+}
+
+.pause_menu {
+    -fx-background-color:   #212121 ;
+}
+
+.death_menu {
+    -fx-background-color: 	#212121;
+}
+
+.options_menu {
+}
+
+.options_menu .thumb {
+    -fx-background-color: 	#212121; /* Tomato red thumb color */
+    -fx-background-radius: 50%;  /* Optional: Makes the thumb circular */
+    -fx-pref-width: 10px;  /* Decrease the width of the thumb */
+    -fx-pref-height: 10px; /* Decrease the height of the thumb */
+}
+
+.options_menu_border {
+    -fx-border-color: 	#212121;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
